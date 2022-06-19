@@ -1,0 +1,1 @@
+[{"py/object": "sshhost.Host", "id": 1, "group": "dev", "name": "python", "fullname": "python.acme.com"}, {"py/object": "sshhost.Host", "id": 2, "group": "dev", "name": "java", "fullname": "java.acme.com"}]
