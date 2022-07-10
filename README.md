@@ -30,6 +30,13 @@ Select a host id [1/2]:
 * Rich
 * JsonPickle
 
+## Installation
+
+1. Clone the repo.
+2. python -m venv .venv
+3. . .venv/bin/activate
+4. `pip install -r requirements.txt` 
+
 ## TODO
 
 * Add ability to save / edit hosts via UI

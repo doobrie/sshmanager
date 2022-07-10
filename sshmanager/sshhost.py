@@ -1,12 +1,13 @@
 import jsonpickle
+import uuid
 
 
 class Host():
-    def __init__(self, id, group, name, fullname) -> None:
-        self.id = id
+    def __init__(self, group: str, name: str, address: str) -> None:
+        self.id = uuid.uuid4().hex
         self.group = group
         self.name = name
-        self.fullname = fullname
+        self.address = address
 
     def get_id(self) -> int:
         return self.id
@@ -17,8 +18,8 @@ class Host():
     def get_name(self) -> str:
         return self.name
 
-    def get_fullname(self) -> str:
-        return self.fullname
+    def get_address(self) -> str:
+        return self.address
 
 
 class HostList:
